@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sagiri's Blog</title>
+    <link rel="shortcut icon" type="image/png" href="android-chrome-512x512.png">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /*font style for headings*/
+        #headings{
+            font-family: 'Garamond';
+        }
+       /*body design*/
+        body{
+            background-image: url("background image.jpg");
+            background-color: rgba(255,255,255,0.6);
+            background-blend-mode: lighten;
+        }
+        /*class used to center the headings*/
+        .center{
+            text-align: center;
+        }
+        /*navigation bar settings*/
+        .nav ul {
+            list-style-type: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(253, 244, 229, 1);
+        }
+
+        .nav li{
+            display: inline-block;
+        }
+
+        .nav a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            width: 200px;
+            font-size: 17px;
+        }
+
+        .nav a:hover {
+            background-color: rgb(255, 229, 180);
+        }
+        </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481">Daily Check In</a></li>
+            <li><a href="#">Albums</a></li>
+            <li><a href="#">Social</a></li>
+        </ul>
+    </div>
+
+    <div class="center">
+        <heading style="font-family: Garamond; font-size: 50px;">Sagiri's Genshin Journal&#x2728</heading>
+        <br><br>
+
+        <div id="container">
+            <div id="play" class="playbutton"></div>
+        </div>
+    </div>
+
+    <audio id="song" loop><source src="OST.mp3" type="audio/mp3"></audio>
+    
+
+
+     <script src="test.js"></script>
+    
+
+</body>
+<tail>
+
+
+</tail>
+</html>
