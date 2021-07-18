@@ -1,0 +1,20 @@
+#container{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.playbutton{
+    width: 100px;
+    height: 100px;
+    background: url("icons8-play-100.png") no-repeat;
+    margin: auto;
+}
+
+.pausebutton{
+    width: 100px;
+    height: 100px;
+    background: url("icons8-pause-100.png") no-repeat;
+    margin: auto;
+}
